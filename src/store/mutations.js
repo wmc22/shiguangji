@@ -1,15 +1,12 @@
 import router from '../router'
 
 var mutations={
-	add(state){
-		state.count++
-	},
-	jian(state){
-		state.count--
-	},
-	login(state,username){
-		state.username=username
-		router.push('/index')
-	}
+	login(state, name) {
+		state.name = name;
+		// router.push("/main");
+	  },
+	  yanzheng(state, yanzheng) {
+		state.yanzheng = yanzheng;
+	  }
 }
 export default mutations;

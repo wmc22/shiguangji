@@ -1,6 +1,6 @@
 var state={
-	count:0,
-	username:''
+	name:"",
+	yanzheng:''
 }
 
 export default state;

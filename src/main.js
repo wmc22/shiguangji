@@ -7,7 +7,7 @@ import axios from 'axios'
 import Vant from 'vant';
 import 'vant/lib/index.css';
 import 'lib-flexible/flexible'
-
+import { Area } from 'vant';
 
 Vue.use(Vant);
 Vue.config.productionTip = false

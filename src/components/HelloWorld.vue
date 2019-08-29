@@ -1,7 +1,5 @@
 <template>
-   <div class="hello">
-    <h2>移动端</h2>
-  </div>
+  
 </template>
 
 <script>
